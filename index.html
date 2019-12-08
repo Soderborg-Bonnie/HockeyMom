@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>The Hockey Mom</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload='nhlRanking()'>
+    <header>
+        <div class='logo'>
+            <a href='index.html'><img id='logo' src='images/logo.png' alt='logo'></a>
+            <a href='index.html' id='logoText'>
+                <!-- HTML Credit Code for Can Stock Photo -->
+                <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / roxanabalint</a>   -->
+                <h1>The Hockey Mom</h1>
+            </a>
+            <img id='hockeyKidFace' src='images/hockeyKidsmleft.png' alt='hockey kid in helmet'>
+        </div>
+        <nav id='topNav'>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="mainNav" class="hide">
+                <li><a href='index.html' class='current'>Home</a></li>
+                <li><a href='gear.html'>Gear</a></li>
+                <li><a href='resources.html'>Resources</a></li>
+                <li><a href='underConstruction.html'>About</a></li>
+                <li><a href='underConstruction.html'>Contact</a>
+                </li>
+                <!--                                <img id='hockeyKidFace' src='images/hockeyKidsmleft.png' alt='hockey kid in helmet'>-->
+                <!-- HTML Credit Code for Can Stock Photo -->
+                <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / paleka</a>-->
+            </ul>
+        </nav>
+    </header>
+    <main class='mainHome'>
+        <aside id='teams'>
+            <h3> NHL Teams</h3>
+            <table id='teamsTable'>
+                <tr></tr>
+            </table>
+        </aside>
+        <aside id='ranks'>
+            <h3> NHL League Rankings as of:</h3>
+            <span id='currentDate'>Placeholder</span><br>
+            <table id='standingsTable'>
+                <tr></tr>
+            </table>
+        </aside>
+        
+    </main>
+    
+    <footer>
+        <p class='copyright'>&copy;2018 All rights reserved. The Hockey Mom</p><br>
+        <div class='bgAttribution'>
+            <p>background pattern from Toptal Subtle Patterns</p>
+        </div>
+    </footer>
+    <script src='currentDate.js'></script>
+    <script src='main.js'></script>
+
+</body>
+
+</html>

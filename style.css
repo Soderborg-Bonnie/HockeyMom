@@ -1,0 +1,402 @@
+/**************************************************mobile size*/
+
+/*@import url('https://fonts.googleapis.com/css?family=Finger+Paint|Frijole|Just+Another+Hand|PT+Sans|Special+Elite|Titan+One');*/
+
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+
+/*colors */
+
+/*
+dk blue: #1474A6
+dk red: #BB5258
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    min-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    background-image: url(images/noisy/noisy.png);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Special Elite';
+    color: #1474A6;
+}
+
+/***********************************************header*/
+
+header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    height: 290px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.logo {
+    display: flex;
+}
+
+#logo {
+    width: 120px;
+    margin-top: 1.5rem;
+}
+
+#logoText {
+    margin-left: 2rem;
+    margin-top: -1rem;
+    text-decoration: none;
+}
+
+#hockeyKidFace {
+    display: none;
+}
+
+/*********************************************nav menu*/
+
+nav {
+    width: 100%;
+    text-align: left;
+    background: linear-gradient(#1474A6, #ac2c33);
+    z-index: 1;
+}
+
+nav button {
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.6rem;
+    color: white;
+}
+
+nav ul {
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    margin: .1rem .5rem;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000;
+}
+
+nav ul li a:link {
+    color: white
+}
+
+nav ul li a:visited {
+    color: white;
+}
+
+nav ul li a:hover {
+    color: #1474A6;
+}
+
+nav ul li a:active {
+    color: #BB5258;
+}
+
+a.current:link,
+a.current:visited {
+    color: #FFD200;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+
+
+/*******************************************main*/
+
+main {
+    width: 500px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+main h2 {
+    margin: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#player {
+    width: 100%;
+}
+
+.bag {
+    width: 200px;
+}
+
+#rightWay {
+    opacity: 0;
+}
+
+.gearLayers {
+    opacity: 0;
+}
+
+.layers {
+    width: 100px;
+}
+
+.construction {
+    height: 500px;
+    text-align: center;
+    padding: 3rem
+}
+
+#contactPage {
+    color: #3E6127;
+    padding: 1rem;
+}
+
+#contactPage h1 {
+    text-align: center;
+}
+
+aside {
+    padding: 1.5rem;
+}
+
+aside h3 {
+    padding-bottom: 1rem;
+}
+
+#standingsTable {
+    padding-top: 1rem;
+}
+
+#standingsTable td {
+    padding-left: 1rem;
+}
+
+#teamsTable a {
+    color: #1474A6;
+    text-decoration: none;
+}
+
+#teamsTable a:hover {
+    color: #BB5258;
+}
+#middle{
+    display: none;
+}
+/***********************************************footer*/
+
+footer {
+    width: 100%;
+    background: linear-gradient(#ac2c33, #1474A6);
+    padding: 1rem;
+    /*    height: 7rem;*/
+    color: white;
+    text-align: center;
+    font-size: .6rem;
+}
+
+footer p {
+    display: inline;
+}
+
+.copyright {
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.bgAttribution {
+    padding-top: 1rem;
+}
+
+/******************************************************tablet size*/
+
+@media only screen and (min-width: 860px) {
+    /*******************************************************header*/
+    header h1 {
+        font-size: 2rem;
+        margin-top: 7rem;
+        margin-left: 9rem;
+    }
+    .logo {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        margin-left: 1rem;
+    }
+    #logo {
+        width: 220px;
+    }
+    #hockeyKidFace {
+        display: inline;
+    }
+    /***************************************************nav menu*/
+    nav {
+        font-size: 1.5rem;
+        /*        height: 5rem;*/
+    }
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+    }
+    nav button {
+        display: none;
+    }
+    nav ul.hide {
+        display: grid;
+    }
+    #hockeyKidFace {
+        height: 250px;
+        width: auto;
+
+    }
+    #tooSmall{
+        display: none;
+    }
+    /************************************************main*/
+    .mainHome {
+        width: 860px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        /*        grid-template-columns: 1fr 1fr;*/
+        grid-gap: 5rem;
+        margin-top: 3rem;
+    }
+
+    #ranks {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        width: 500px;
+    }
+    #teams {
+        grid-column-start: 0;
+        grid-column-end: 1;
+width: 220px;
+    }
+    #clicker{
+        background-color: #BB5258;
+        color: white;
+        width: 200px;
+        height: 100px;
+        border-radius: 30px;
+/*        box-shadow: */
+    }
+    #clicks{
+        margin-bottom: 350px;
+    }
+    main h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #middle {
+        display: inline;
+        width: 860px:
+    }
+    #middle h2{
+        padding-top: 1rem;
+    }
+    #middle h3 {
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 1rem
+    }
+    #player {
+        width: 400px;
+        /*        width: 100%;*/
+        padding-top: 2rem;
+    }
+   
+    .bag {
+        width: 200px;
+    }
+    .gear {
+        display: grid;
+        grid-template-columns: 300px 300px 1fr;
+    }
+    
+    #rightWay {
+        padding-top: 3rem;
+        opacity: 0;
+        width: 280px;
+    }
+
+    /*******************************************************footer*/
+    footer a {
+        font-size: .8rem;
+        padding: 1rem;
+    }
+
+}
+
+/**************************************************full size*/
+
+@media only screen and (min-width: 1080px) {
+    /*****************************************************header*/
+    header h1 {
+        font-size: 3rem;
+        margin-top: 9rem;
+        margin-left: 25rem;
+    }
+    .logo {
+        /*        display: inline-flex;*/
+        margin-left: 2rem;
+    }
+    #logo {
+        width: 225px;
+    }
+
+    /***************************************************nav menu*/
+    nav ul {
+        grid-template-columns: repeat(15, 1fr);
+    }
+    /*******************************************************main*/
+    main {
+        width: 100%;
+        margin-top: 3rem;
+    }
+    /*********************************************************player gear*/
+    #player {
+        /*
+        width: 100%;
+        height: auto:
+*/
+    }
+
+    /*****************************************************footer*/
+    footer {
+        /*        height: 8rem;*/
+        color: white;
+        text-align: center;
+        font-size: .8rem;
+    }
+    footer a {
+        font-size: 1rem;
+        padding: 6rem;
+    }
+}

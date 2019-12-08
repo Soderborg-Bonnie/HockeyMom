@@ -1,0 +1,227 @@
+{
+    copyright: "NHL and the NHL Shield are registered trademarks of the National Hockey League. NHL and NHL team marks are the property of the NHL and its teams. © NHL 2018. All Rights Reserved.",
+    totalItems: 4,
+    totalEvents: 0,
+    totalGames: 4,
+    totalMatches: 0,
+    wait: 10,
+    dates: [
+        {
+            date: "2018-12-10",
+            totalItems: 4,
+            totalEvents: 0,
+            totalGames: 4,
+            totalMatches: 0,
+            games: [
+                {
+                    gamePk: 2018020461,
+                    link: "/api/v1/game/2018020461/feed/live",
+                    gameType: "R",
+                    season: "20182019",
+                    gameDate: "2018-12-11T00:00:00Z",
+                    status: {
+                        abstractGameState: "Preview",
+                        codedGameState: "2",
+                        detailedState: "Pre-Game",
+                        statusCode: "2",
+                        startTimeTBD: false
+                    },
+                    teams: {
+                        away: {
+                            leagueRecord: {
+                                wins: 12,
+                                losses: 10,
+                                ot: 6,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 5,
+                                name: "Pittsburgh Penguins",
+                                link: "/api/v1/teams/5"
+                            }
+                        },
+                        home: {
+                            leagueRecord: {
+                                wins: 14,
+                                losses: 11,
+                                ot: 3,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 2,
+                                name: "New York Islanders",
+                                link: "/api/v1/teams/2"
+                            }
+                        }
+                    },
+                    venue: {
+                        name: "NYCB Live/Nassau Coliseum",
+                        link: "/api/v1/venues/null"
+                    },
+                    content: {
+                        link: "/api/v1/game/2018020461/content"
+                    }
+},
+                {
+                    gamePk: 2018020462,
+                    link: "/api/v1/game/2018020462/feed/live",
+                    gameType: "R",
+                    season: "20182019",
+                    gameDate: "2018-12-11T00:30:00Z",
+                    status: {
+                        abstractGameState: "Preview",
+                        codedGameState: "1",
+                        detailedState: "Scheduled",
+                        statusCode: "1",
+                        startTimeTBD: false
+                    },
+                    teams: {
+                        away: {
+                            leagueRecord: {
+                                wins: 11,
+                                losses: 18,
+                                ot: 1,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 26,
+                                name: "Los Angeles Kings",
+                                link: "/api/v1/teams/26"
+                            }
+                        },
+                        home: {
+                            leagueRecord: {
+                                wins: 13,
+                                losses: 13,
+                                ot: 4,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 17,
+                                name: "Detroit Red Wings",
+                                link: "/api/v1/teams/17"
+                            }
+                        }
+                    },
+                    venue: {
+                        id: 5145,
+                        name: "Little Caesars Arena",
+                        link: "/api/v1/venues/5145"
+                    },
+                    content: {
+                        link: "/api/v1/game/2018020462/content"
+                    }
+},
+                {
+                    gamePk: 2018020463,
+                    link: "/api/v1/game/2018020463/feed/live",
+                    gameType: "R",
+                    season: "20182019",
+                    gameDate: "2018-12-11T00:30:00Z",
+                    status: {
+                        abstractGameState: "Preview",
+                        codedGameState: "1",
+                        detailedState: "Scheduled",
+                        statusCode: "1",
+                        startTimeTBD: false
+                    },
+                    teams: {
+                        away: {
+                            leagueRecord: {
+                                wins: 14,
+                                losses: 12,
+                                ot: 3,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 3,
+                                name: "New York Rangers",
+                                link: "/api/v1/teams/3"
+                            }
+                        },
+                        home: {
+                            leagueRecord: {
+                                wins: 23,
+                                losses: 7,
+                                ot: 1,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 14,
+                                name: "Tampa Bay Lightning",
+                                link: "/api/v1/teams/14"
+                            }
+                        }
+                    },
+                    venue: {
+                        id: 5017,
+                        name: "Amalie Arena",
+                        link: "/api/v1/venues/5017"
+                    },
+                    content: {
+                        link: "/api/v1/game/2018020463/content"
+                    }
+},
+                {
+                    gamePk: 2018020464,
+                    link: "/api/v1/game/2018020464/feed/live",
+                    gameType: "R",
+                    season: "20182019",
+                    gameDate: "2018-12-11T03:30:00Z",
+                    status: {
+                        abstractGameState: "Preview",
+                        codedGameState: "1",
+                        detailedState: "Scheduled",
+                        statusCode: "1",
+                        startTimeTBD: false
+                    },
+                    teams: {
+                        away: {
+                            leagueRecord: {
+                                wins: 10,
+                                losses: 12,
+                                ot: 6,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 1,
+                                name: "New Jersey Devils",
+                                link: "/api/v1/teams/1"
+                            }
+                        },
+                        home: {
+                            leagueRecord: {
+                                wins: 15,
+                                losses: 11,
+                                ot: 5,
+                                type: "league"
+                            },
+                            score: 0,
+                            team: {
+                                id: 28,
+                                name: "San Jose Sharks",
+                                link: "/api/v1/teams/28"
+                            }
+                        }
+                    },
+                    venue: {
+                        name: "SAP Center at San Jose",
+                        link: "/api/v1/venues/null"
+                    },
+                    content: {
+                        link: "/api/v1/game/2018020464/content"
+                    }
+}
+],
+            events: [],
+            matches: []
+}
+]
+}

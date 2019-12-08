@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Wasatch Back Hockey</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class='logo'>
+            <a href='index.html'><img id='logo' src='images/logo.png' alt='logo'></a>
+            <a href='index.html' id='logoText'>
+                <!-- HTML Credit Code for Can Stock Photo -->
+                <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / roxanabalint</a>   -->
+                <h1>The Hockey Mom</h1>
+            </a>
+            <img id='hockeyKidFace' src='images/hockeyKidsmleft.png' alt='hockey kid in helmet' onclick='countTheClicks'>
+        </div>
+        <nav id='topNav'>
+            <button onclick="toggleMenu()">&#9776;</button>
+            <ul id="mainNav" class="hide">
+                <li><a href='index.html'>Home</a></li>
+                <li><a href='gear.html' class='current'>Gear</a></li>
+                <li><a href='resources.html'>Resources</a></li>
+                <li><a href='underConstruction.html'>About</a></li>
+                <li><a href='underConstruction.html'>Contact</a>
+                </li>
+                <!--                <img id='hockeyKidFace' src='images/hockeyKidsmleft.png' alt='hockey kid in helmet'>-->
+                <!-- HTML Credit Code for Can Stock Photo -->
+                <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / paleka</a>-->
+            </ul>
+        </nav>
+    </header>
+    <main id='mainGear'>
+        <h2 id='tooSmall'>Sorry. You need a larger screen to view this.</h2>
+<div id='middle'>
+            <h2>What's the right way to put on gear?</h2><br>
+    <h3>click the bag to see the gear and then click the player to see the order</h3>
+            
+            <div class='gear'>
+<!--                <div>-->
+<!--                    <div id='gearHead'><h3>click the player to find out the right way</h3></div>-->
+                <img id='player' src='images/player.png' alt='hockey player kid' onclick='transitionGear()'>
+<!--                    </div>-->
+<!--                <img id='player' src='images/player.png' alt='hockey player kid'>-->
+                <!-- HTML Credit Code for Can Stock Photo -->
+                <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / Sonulkaster</a>-->
+                <div class='gearRight'>
+                    
+                    <div class='bag'>
+                        <img id='hockeyBag' class='bag' src='images/hockeyBag.png' alt='hockey bag' onclick='flip()'>
+                        <!-- HTML Credit Code for Can Stock Photo -->
+                        <!--<a href="https://www.canstockphoto.com">(c) Can Stock Photo / curiosity</a>-->
+                    </div>
+                    
+                    <div class='gearLayers'>
+                        <img id='guard' class='layers' src='images/guard.png' alt='hockey guard'>
+                        <img id='leftShin' class='layers' src='images/leftShin.png' alt='hockey shin guards'>
+                        <img id='rightShin' class='layers' src='images/rightShin.png' alt='hockey shin guards'>
+                        <img id='leftSock' class='layers' src='images/leftSock.png' alt='hockey socks'>
+                        <img id='rightSock' class='layers' src='images/rightSock.png' alt='hockey socks'>
+                        <img id='pants' class='layers' src='images/shorts.png' alt='hockey shorts'>
+                        <img id='leftSkate' class='layers' src='images/skatelnr.png' alt='hockey skates'>
+                        <img id='rightSkate' class='layers' src='images/skatelnr.png' alt='hockey skates'>
+                        <img id='shoulderPads' class='layers' src='images/chestGuard.png' alt='hockey shoulder pads'>
+                        <img id='leftElbow' class='layers' src='images/elbowPadL.png' alt='hockey elbow pads'>
+                        <img id='rightElbow' class='layers' src='images/elbowPad.png' alt='hockey elbow pads'>
+                        <img id='jersey' class='layers' src='images/jersey2.png' alt='hockey jersey'>
+                        <img id='mouthGuard' class='layers' src='images/mouthGuard.png' alt='hockey mouth guard'>
+                        <img id='helmet' class='layers' src='images/helmet.png' alt='hockey helmet'>
+                        <img id='leftGlove' class='layers' src='images/leftGlove.png' alt='hockey gloves'>
+                        <img id='rightGlove' class='layers' src='images/rightGlove.png' alt='hockey gloves'>
+                    </div>
+
+                </div>
+                <div id='rightWay'>
+                        <h3>According to many coaches, gear should be put on in this order:</h3>
+                        <ul>
+                            <li>guard</li>
+                            <li>shin guards</li>
+                            <li>socks</li>
+                            <li>pants</li>
+                            <li>skates</li>
+                            <li>shoulder pads</li>
+                            <li>elbow pads</li>
+                            <li>jersey</li>
+                            <li>mouth guard</li>
+                            <li>helmet</li>
+                            <li>gloves</li>
+                        </ul>
+                    </div>
+            </div>
+            
+        </div>
+    </main>
+    <footer>
+
+        <p class='copyright'>&copy;2018 The Hockey Mom</p><br>
+        <div class='bgAttribution'>
+            <p>background pattern from Toptal Subtle Patterns</p>
+        </div>
+
+        <!--        </div>-->
+    </footer>
+    <script src='main.js'></script>
+</body>
+
+</html>
